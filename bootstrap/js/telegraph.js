@@ -11,10 +11,11 @@ $(function() {
 	  
 	  
 	  var el = document.getElementById("button");
-	     if (el.innerHTML == "SUBMIT") 
-	     {
+	  alert(el.innerHTML);
+
+			 alert("HELLO");
 	         el.innerHTML = '<div class="spinner"></div>';
-	     }
+	    
 		 
       setTimeout(function() {
         
@@ -23,14 +24,14 @@ $(function() {
 		     {
 				 if(document.getElementById("email").className == 'form-control mce_inline_error')
 				 {
-					 el.innerHTML = '&#xf00d;';
+					 el.innerHTML = '<i class=\"fa fa-chevron-right\"></i>';
 					 $( "#button" ).addClass( "change-error", 450);
 					 $('#email').attr('placeholder',' Invalid email. Please try again. ');
 					 
 					 setTimeout(function() {
 						 
 						 $( "#button" ).removeClass( "change-error" );
-						 el.innerHTML = 'SUBMIT';
+						 el.innerHTML = '&#xf054;';
 						 $('#email').attr('placeholder',' Submit your email to never miss an episode... ');
 						 
 						 

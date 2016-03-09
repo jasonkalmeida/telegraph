@@ -19,6 +19,11 @@
     src: url("fonts/oswald/Oswald-Bold.ttf");
 }
 
+@font-face {
+    font-family: FontAwesome;
+    src: url("fonts/fontawesome-webfont.ttf");
+}
+
 .jumbotron
 {
 	background-color:initial;
@@ -274,8 +279,7 @@ input#email.form-control
 	min-width: 250px;
 	border-radius: 0px;
 	margin-right: -4px;
-	height: 67px;
-
+height: 55px;
 	
 }
 
@@ -292,7 +296,7 @@ button.btn.btn-default
 	  text-decoration: none;
 	  border:none;
 	  border-radius:0px;
-	  height: 67px;
+	  height: 55px;
 	  width: 142px;
 	  
 }
