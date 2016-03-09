@@ -30,7 +30,7 @@ $(function() {
 						 
 						 $( "#button" ).removeClass( "change-error" );
 						 el.innerHTML = '<i class=\"fa fa-chevron-right\"></i>';
-						 $('#email').attr('placeholder',' Submit your email to never miss an episode... ');
+						 $('#email').attr('placeholder',' Submit your email to subscribe... ');
 						 
 						 
 						 
