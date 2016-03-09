@@ -1,0 +1,359 @@
+@font-face {
+    font-family: OpenSansBold;
+    src: url("fonts/open-sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url("fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: OswaldLight;
+    src: url("fonts/oswald/Oswald-Light.ttf");
+}
+
+
+@font-face {
+    font-family: OswaldBold;
+    src: url("fonts/oswald/Oswald-Bold.ttf");
+}
+
+.jumbotron
+{
+	background-color:initial;
+	padding:0px;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+body
+{
+	padding-top:0px;
+	padding-bottom:0px;
+	
+}
+
+.row
+{
+	margin-right:0px;
+	margin-left:0px;
+}
+
+.jumbotron .col-md-12
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.explain p, .faq p, .example p
+{
+	/* It is simple and fre: */
+	font-family: OpenSans;
+	font-size: 15px;
+	color: #555555;
+	line-height: 30px;
+}
+
+.explain h2, .faq h2, .example h2
+{
+	color:#454545;
+}
+
+
+
+
+h2
+{
+	font-family: OswaldBold;
+}
+
+h3
+{
+	font-family:OpenSansBold;
+	color: #555555;
+}
+
+.jumbotron>.container
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	
+}
+
+.jumbotron p
+{
+	font-family: OswaldLight;
+	
+}
+
+
+.img-responsive
+{
+	float:left;
+}
+
+div.blue-banner
+{
+	float:left;
+	width:780px;
+	padding-top: 9%;
+	left: -65px;
+	position: relative;
+	text-align: center;
+	color:white;
+}
+
+div.top-banner
+{
+	background-color: #3985DE;
+	opacity:.93;
+}
+
+div.bottom-banner
+{
+	background-color: #529BF0;
+	position: relative;
+	top: -20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.top-banner>p
+{
+	font-size: 58px;
+	padding: 80px 30px 50px 30px;
+}
+
+.bottom-banner>h2
+{
+	font-family:OpenSansBold;
+	font-size: 64px;
+}
+
+.bottom-banner>p
+{
+	font-size: 14px;
+	font-family:OpenSansRegular;
+}
+
+.explain
+{
+	text-align:center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2%;
+}
+
+.explain hr
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.example
+{
+	text-align:center;
+	
+}
+
+.faq>.row>h3, .faq>.row>p
+{
+	
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.faq h2
+{
+	text-align:center;
+	padding-top: 6%;
+	padding-bottom: 4%;
+}
+
+#overlay
+{
+	top: -101px;
+
+	position: relative;
+	background: white;
+
+	
+}
+
+#overlay>hr
+{
+	margin-top: 0px;
+}
+
+.col-md-6>img
+{
+	margin: auto;
+
+	display: block;
+	padding-top: 40px;
+}
+
+.footer
+{
+	background-color:#3985DE;
+	text-align:center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	color:white;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.top-footer
+{
+	font-family: OswaldLight;
+	font-size: 30px;
+	
+	
+}
+
+.bot-footer
+{
+	padding-bottom: 30px;
+}
+
+.bot-footer>p
+{
+	font-family: OpenSansRegular;
+	font-size:14px;
+}
+
+.bot-footer>h2
+{
+	font-family: OpenSansBold;
+	font-size:64px;
+	
+}
+
+.footer .col-md-6>h2
+{
+	font-family: OswaldLight;
+	
+}
+
+.head-foot
+{
+	padding-left: 18%;
+	padding-right: 18%;
+}
+
+.footer>.row
+{
+	width: 65%;
+	margin: auto;
+	
+}
+
+.footer hr
+{
+	border-color: #5F9FEA;
+}
+
+.wborder
+{
+	border-right: solid 1px #5F9FEA;
+}
+
+.footer .col-md-6
+{
+	min-height:150px;
+}
+
+input#email.form-control
+{
+	min-width: 250px;
+	border-radius: 0px;
+	margin-right: -4px;
+	height: 67px;
+
+	
+}
+
+button.btn.btn-default
+{
+	  color: #ffffff;
+	  font-family: OpenSansBold;
+	  letter-spacing: 2px;
+	  line-height: 30px;
+	  
+	  /*font-size: 20px;*/
+	  background: #0062D5;
+	  /*padding: 10px 20px 10px 20px;*/
+	  text-decoration: none;
+	  border:none;
+	  border-radius:0px;
+	  height: 67px;
+	  width: 142px;
+	  
+}
+
+button.btn.btn-default:hover {
+  color: white;
+  letter-spacing: 3px;
+  
+}
+
+
+
+button#button.btn.btn-default.change {
+  
+  color: white;
+  font-family: 'FontAwesome';
+  letter-spacing: 2px;
+  line-height: 30px;
+  
+  /*font-size: 20px;*/
+  /*padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+  height: 67px;
+  width: 142px;
+  font-size: 24px;
+  
+  
+}
+
+button#button.btn.btn-default.change-error
+{
+    color: white;
+    font-family: 'FontAwesome';
+    letter-spacing: 2px;
+    line-height: 30px;
+	background-color: #cc0000;
+  
+    /*font-size: 20px;*/
+    /*padding: 10px 20px 10px 20px;*/
+    text-decoration: none;
+    height: 67px;
+    width: 142px;
+    font-size: 24px;
+}
+
+.spinner {
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  border: 0px solid white;
+  border-radius: 50%;
+  box-shadow: 0 -1px 0 1px white inset;
+  animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
