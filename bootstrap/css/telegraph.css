@@ -406,6 +406,12 @@ button#button.btn.btn-default.change-error
 		width: 250px;
 		
 	}
+	
+	button#button.btn.btn-default.change
+	{
+		width: 250px;
+		
+	}
 
 }
 
@@ -461,6 +467,11 @@ button#button.btn.btn-default.change-error
 		
 	}
 
+	button#button.btn.btn-default.change
+	{
+		width: 250px;
+		
+	}
 	
 
 }
@@ -513,6 +524,12 @@ button#button.btn.btn-default.change-error
 	
 	
 	button#button.btn.btn-default.change-error
+	{
+		width: 250px;
+		
+	}
+	
+	button#button.btn.btn-default.change
 	{
 		width: 250px;
 		
@@ -596,6 +613,11 @@ button#button.btn.btn-default.change-error
 		
 	}
 	
+	button#button.btn.btn-default.change
+	{
+		width: 100%;
+		
+	}
 
 }
 
