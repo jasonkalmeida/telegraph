@@ -542,9 +542,18 @@ button#button.btn.btn-default.change-error
 		
 	}
 	
+	.container
+	{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
 
 	
 	input#email.form-control{
+		
+		font-size: 11px;
+		min-width:0px;
 		
 	}
 	
