@@ -399,6 +399,13 @@ button#button.btn.btn-default.change-error
 	{
 		width: 250px;
 	}
+	
+	
+	button#button.btn.btn-default.change-error
+	{
+		width: 250px;
+		
+	}
 
 }
 
@@ -446,6 +453,13 @@ button#button.btn.btn-default.change-error
 		border-right:none;
 	}
 	
+	
+	
+	button#button.btn.btn-default.change-error
+	{
+		width: 250px;
+		
+	}
 
 	
 
@@ -498,6 +512,12 @@ button#button.btn.btn-default.change-error
 	}
 	
 	
+	button#button.btn.btn-default.change-error
+	{
+		width: 250px;
+		
+	}
+	
 
 }
 
@@ -542,6 +562,11 @@ button#button.btn.btn-default.change-error
 		
 	}
 	
+	.example img
+	{
+		width: 275px;
+	}
+	
 
 	
 
@@ -563,6 +588,12 @@ button#button.btn.btn-default.change-error
 	.wborder
 	{
 		border-right:none;
+	}
+	
+	button#button.btn.btn-default.change-error
+	{
+		width: 100%;
+		
 	}
 	
 
