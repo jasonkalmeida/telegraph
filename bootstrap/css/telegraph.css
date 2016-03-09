@@ -53,7 +53,7 @@ body
 .explain p, .faq p, .example p
 {
 	/* It is simple and fre: */
-	font-family: OpenSans;
+	font-family: OpenSansRegular;
 	font-size: 15px;
 	color: #555555;
 	line-height: 30px;
