@@ -128,7 +128,7 @@ div.bottom-banner
 .top-banner>p
 {
 	font-size: 58px;
-	padding: 80px 30px 50px 30px;
+	padding: 8% 5% 5% 3%;
 }
 
 .bottom-banner>h2
@@ -319,7 +319,7 @@ button#button.btn.btn-default.change {
   /*font-size: 20px;*/
   /*padding: 10px 20px 10px 20px;*/
   text-decoration: none;
-  height: 67px;
+  height: 55px;
   width: 142px;
   font-size: 24px;
   
@@ -337,7 +337,7 @@ button#button.btn.btn-default.change-error
     /*font-size: 20px;*/
     /*padding: 10px 20px 10px 20px;*/
     text-decoration: none;
-    height: 67px;
+  	height: 55px;
     width: 142px;
     font-size: 24px;
 }
@@ -361,3 +361,205 @@ button#button.btn.btn-default.change-error
     transform: rotate(360deg);
   }
 } 
+
+@media (min-width: 1015px) and (max-width: 1330px) {
+
+	.img-responsive
+	{
+		width: 530px;
+	}
+	
+	.top-banner>p
+	
+	{
+		font-size: 36px;
+
+			
+	}
+	
+	.bottom-banner>h2
+	{
+		font-size: 40px;
+	}
+	
+	.bottom-banner>p
+	{
+		font-size: 12px;
+
+		
+	}
+	
+	
+	div.blue-banner
+	{
+		width:480px;
+	}
+	
+	button#button.btn.btn-default	
+	{
+		width: 250px;
+	}
+
+}
+
+
+@media (min-width: 851px) and (max-width: 1014px) {
+	
+
+	.top-banner>p
+	
+	{
+		font-size: 36px;
+
+			
+	}
+	
+	.bottom-banner>h2
+	{
+		font-size: 40px;
+	}
+	
+	.bottom-banner>p
+	{
+		font-size: 12px;
+
+		
+	}
+	
+	.img-responsive
+	{
+		width: 369px;
+	}
+	
+	div.blue-banner
+	{
+		width:483px;
+	}
+	
+	button#button.btn.btn-default	
+	{
+		width: 250px;
+	}
+	
+	.wborder
+	{
+		border-right:none;
+	}
+	
+
+	
+
+}
+
+
+
+@media (min-width: 722px) and (max-width: 850px) {
+	
+
+	.top-banner>p
+	
+	{
+		font-size: 31px;
+
+			
+	}
+	
+	.bottom-banner>h2
+	{
+		font-size: 37px;
+	}
+	
+	.bottom-banner>p
+	{
+		font-size: 10px;
+
+		
+	}
+	
+	.img-responsive
+	{
+		width: 300px;
+	}
+	
+	div.blue-banner
+	{
+		width:420px;
+	}
+	
+	button#button.btn.btn-default	
+	{
+		width: 250px;
+
+	}
+	
+	.wborder
+	{
+		border-right:none;
+	}
+	
+	
+
+}
+
+@media (max-width: 721px) {
+	
+	.img-responsive
+	{
+		display:none;
+	}
+	div.blue-banner
+	{
+		padding-top:0px;
+		left: 0px;
+		width:100%;
+	}
+	
+	.jumbotron
+	{
+		border-bottom:none;
+		margin-bottom:0px;
+	}
+	
+	.top-banner>p
+	
+	{
+		font-size: 40px;
+
+		
+
+			
+	}
+	
+	.bottom-banner>h2
+	{
+		font-size: 48px;
+	}
+	
+	.bottom-banner>p
+	{
+		font-size: 14px;
+
+		
+	}
+	
+
+	
+	input#email.form-control{
+		
+	}
+	
+	button#button.btn.btn-default	
+	{
+		width: 100%;
+		top:-15px;
+		position: relative;
+	}
+	
+	.wborder
+	{
+		border-right:none;
+	}
+	
+
+}
+
