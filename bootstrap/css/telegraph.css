@@ -38,6 +38,17 @@ body
 	
 }
 
+a
+{
+	color: white;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color:#E3F2FD;
+}
+
 .row
 {
 	margin-right:0px;
